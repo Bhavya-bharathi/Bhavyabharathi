@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bhavya_app *.css
+recursive-include bhavya_app *.csv
+recursive-include bhavya_app *.html
+recursive-include bhavya_app *.ico
+recursive-include bhavya_app *.js
+recursive-include bhavya_app *.json
+recursive-include bhavya_app *.md
+recursive-include bhavya_app *.png
+recursive-include bhavya_app *.py
+recursive-include bhavya_app *.svg
+recursive-include bhavya_app *.txt
+recursive-exclude bhavya_app *.pyc

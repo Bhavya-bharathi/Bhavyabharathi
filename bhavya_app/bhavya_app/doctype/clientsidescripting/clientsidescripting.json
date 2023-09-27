@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Prompt",
+ "creation": "2023-09-13 13:11:55.361710",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "enable",
+  "firstname",
+  "middlename",
+  "lastname",
+  "fullname",
+  "column_break_wnvcj",
+  "email",
+  "mobileno",
+  "dob",
+  "age",
+  "section_break_q5nq1",
+  "familymembers",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "enable",
+   "fieldtype": "Check",
+   "label": "Enable"
+  },
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "label": "FirstName"
+  },
+  {
+   "fieldname": "middlename",
+   "fieldtype": "Data",
+   "label": "MiddleName"
+  },
+  {
+   "depends_on": "FirstName",
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "label": "LastName"
+  },
+  {
+   "fieldname": "fullname",
+   "fieldtype": "Data",
+   "label": "FullName"
+  },
+  {
+   "fieldname": "column_break_wnvcj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "mobileno",
+   "fieldtype": "Int",
+   "label": "MobileNo"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "section_break_q5nq1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "familymembers",
+   "fieldtype": "Table",
+   "label": "FamilyMembers",
+   "options": "FamilyMembers"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "clientsidescripting",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-21 09:05:12.871879",
+ "modified_by": "Administrator",
+ "module": "Bhavya App",
+ "name": "clientsidescripting",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

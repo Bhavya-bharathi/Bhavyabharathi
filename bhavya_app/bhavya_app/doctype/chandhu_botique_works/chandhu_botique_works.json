@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "creation": "2023-09-05 11:52:43.438972",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "address",
+  "mobile_number",
+  "email_address",
+  "continue",
+  "striching_column",
+  "expected_designs",
+  "delivary_column",
+  "expected_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "FULL NAME"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ADDRESS",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "MOBILE NUMBER",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "EMAIL ADDRESS"
+  },
+  {
+   "fieldname": "striching_column",
+   "fieldtype": "Column Break",
+   "label": "STRICHING"
+  },
+  {
+   "fieldname": "expected_designs",
+   "fieldtype": "Select",
+   "label": "EXPECTED DESIGNS",
+   "options": "DRESS\nSAREES &BLOUSES"
+  },
+  {
+   "fieldname": "delivary_column",
+   "fieldtype": "Column Break",
+   "label": "DELIVARY"
+  },
+  {
+   "fieldname": "expected_date",
+   "fieldtype": "Datetime",
+   "label": "EXPECTED DATE"
+  },
+  {
+   "fieldname": "continue",
+   "fieldtype": "Button",
+   "label": "CONTINUE"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-05 13:49:04.066132",
+ "modified_by": "Administrator",
+ "module": "Bhavya App",
+ "name": "CHANDHU BOTIQUE WORKS",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}

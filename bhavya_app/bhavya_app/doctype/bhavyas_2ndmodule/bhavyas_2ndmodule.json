@@ -1,0 +1,280 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-31 10:29:14.203003",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "father_name",
+  "mother_name",
+  "permanent_address",
+  "present_address",
+  "date_of_birth",
+  "nationality",
+  "religion",
+  "caste",
+  "sex",
+  "marital_status",
+  "contact_number",
+  "emailid",
+  "passing_year_section",
+  "ssc",
+  "inter",
+  "degree",
+  "percentage",
+  "ssc_",
+  "inter_",
+  "degree_",
+  "collegeuniversity_column",
+  "school",
+  "college",
+  "institute",
+  "section_break_jsqz8",
+  "work_experience",
+  "resume",
+  "languages_known",
+  "section_break_x1dic",
+  "declaration",
+  "place",
+  "date",
+  "column_break_9tjk2",
+  "section_break_t1ogi",
+  "signature_of_the_applicant",
+  "submit"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "FIRST NAME",
+   "reqd": 1
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "FATHER NAME"
+  },
+  {
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "label": "MOTHER NAME"
+  },
+  {
+   "fieldname": "permanent_address",
+   "fieldtype": "Data",
+   "label": "PERMANENT ADDRESS",
+   "reqd": 1
+  },
+  {
+   "fieldname": "present_address",
+   "fieldtype": "Data",
+   "label": "PRESENT ADDRESS"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "DATE OF BIRTH",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Select",
+   "label": "NATIONALITY",
+   "options": "INDIAN\nAMERICAN\nOTHERS"
+  },
+  {
+   "fieldname": "religion",
+   "fieldtype": "Select",
+   "label": "RELIGION",
+   "options": "HINDHU\nCHRISTIAN\nMUSLIM\nOTHERS"
+  },
+  {
+   "fieldname": "caste",
+   "fieldtype": "Select",
+   "label": "CASTE",
+   "options": "OC\nBC\nCS\nOTHERS"
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Select",
+   "label": "SEX",
+   "options": "MALE\nFEMALE\nOTHERS"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Select",
+   "label": "MARITAL STATUS",
+   "options": "MARRIED\nUNMARRIED",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Int",
+   "label": "CONTACT NUMBER",
+   "reqd": 1
+  },
+  {
+   "fieldname": "emailid",
+   "fieldtype": "Data",
+   "label": "EMAILID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "passing_year_section",
+   "fieldtype": "Section Break",
+   "label": "PASSING YEAR"
+  },
+  {
+   "fieldname": "ssc",
+   "fieldtype": "Date",
+   "label": "SSC",
+   "reqd": 1
+  },
+  {
+   "fieldname": "inter",
+   "fieldtype": "Date",
+   "label": "INTER",
+   "reqd": 1
+  },
+  {
+   "fieldname": "degree",
+   "fieldtype": "Date",
+   "label": "DEGREE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "percentage",
+   "fieldtype": "Column Break",
+   "label": "PERCENTAGE"
+  },
+  {
+   "fieldname": "ssc_",
+   "fieldtype": "Int",
+   "label": "SSC %",
+   "reqd": 1
+  },
+  {
+   "fieldname": "inter_",
+   "fieldtype": "Int",
+   "label": "INTER %",
+   "reqd": 1
+  },
+  {
+   "fieldname": "degree_",
+   "fieldtype": "Int",
+   "label": "DEGREE %",
+   "reqd": 1
+  },
+  {
+   "fieldname": "collegeuniversity_column",
+   "fieldtype": "Column Break",
+   "label": "COLLEGE/UNIVERSITY"
+  },
+  {
+   "fieldname": "school",
+   "fieldtype": "Data",
+   "label": "SCHOOL",
+   "reqd": 1
+  },
+  {
+   "fieldname": "college",
+   "fieldtype": "Data",
+   "label": "COLLEGE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "institute",
+   "fieldtype": "Data",
+   "label": "INSTITUTE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_jsqz8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "work_experience",
+   "fieldtype": "Data",
+   "label": "WORK EXPERIENCE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "languages_known",
+   "fieldtype": "Data",
+   "label": "LANGUAGES KNOWN"
+  },
+  {
+   "fieldname": "section_break_x1dic",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "declaration",
+   "fieldtype": "Long Text",
+   "label": "DECLARATION"
+  },
+  {
+   "fieldname": "place",
+   "fieldtype": "Data",
+   "label": "PLACE"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "column_break_9tjk2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_t1ogi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "signature_of_the_applicant",
+   "fieldtype": "Signature",
+   "label": "SIGNATURE OF THE APPLICANT"
+  },
+  {
+   "fieldname": "resume",
+   "fieldtype": "Attach",
+   "label": "RESUME"
+  },
+  {
+   "fieldname": "submit",
+   "fieldtype": "Button",
+   "label": "SUBMIT"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-31 11:52:43.035696",
+ "modified_by": "Administrator",
+ "module": "Bhavya App",
+ "name": "Bhavyas_2ndmodule",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
